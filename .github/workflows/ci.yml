@@ -104,7 +104,7 @@ jobs:
         distribution: adopt
     - uses: actions/setup-node@v5
       with:
-        node-version: 22
+        node-version: 24
     - uses: coursier/cache-action@v6
     - run: ./sbt -v
            -Dscala_js_wasm
